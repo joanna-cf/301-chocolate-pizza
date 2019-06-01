@@ -45,13 +45,13 @@ h4 {
 
 #article-title {
   margin-top: 30px;
-  border: 1px solid black;
 }
 
 h2 {
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 2.5em;
   width: 50%;
+  margin-bottom: 0.7%;
 }
 
 h5 {
@@ -59,18 +59,62 @@ h5 {
   text-transform: uppercase;
   font-size: 0.7em;
   font-family: sans-serif;
-  width: 50%;
+  width: 70%;
+  float: left;
+}
+
+h5:nth-child(3) {
+  width: 4%;
+  float: right;
 }
 
 #article-title > img {
-  float:right;
-}
-
-h5:last-child {
-  float:right;
+  float: right;
 }
 
 #image > img{
   width: 960px;
+  margin: 3% 0%;
 }
 
+p {
+  margin-bottom: 3%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.25em;
+  text-indent: 3%;
+}
+
+#ingredients {
+  background-image: url('assets/list-bg.png');
+  height: 40%;
+  overflow: hidden;
+  padding: 4.5% 5.5%;
+  margin-bottom: 4%;
+  font-family: sans-serif;
+  font-size: 1.3em;
+}
+
+ul {
+  width: 45%;
+  float: left;
+}
+
+#col-2 {
+  margin-left: 5%;
+}
+
+#col-2 > li:nth-child(2), li:nth-child(3) {
+  text-decoration: line-through;
+}
+
+input {
+  margin-right: 2%;
+}
+
+li {
+  margin-bottom: 2.5%;
+}
+
+#author {
+  border-top: 10px solid lightgray;
+}
