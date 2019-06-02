@@ -160,5 +160,19 @@ button {
 
 footer {
   display: block;
-  border: 1px solid black;
+  margin-bottom: 5%;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  margin-bottom: 3%;
+}
+
+footer > p {
+  text-align: center;
+  margin: 0%;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  color: darkgrey;
 }
